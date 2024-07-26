@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0%;
+    background-color: #ffffff;
+}
+.active{
+    background-color:#ffffff;
+    color: #000000 !important;
+    }
+
+.topnav {
+    overflow: hidden;
+    background-color: #242852; /* Dark blue color */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    color: #fff;
+    z-index: 1;
+    margin: 0;
+}
+.topnav #nav-icon1 {
+    position: relative;
+    margin-right: 800px;
+    padding-top: 5px;
+}
+
+.topnav .logo {
+    font-weight: bold;
+    /* position: relative; */
+    
+}
+.topnav >#sub-title{
+   margin-left: 40px;
+   position: fixed;
+   color: #c9c7c7;
+   font-size: medium;
+}
+.topnav .right-section {
+    display: flex;
+    align-items: center;
+}
+
+.topnav .welcome {
+    margin-right: 10px;
+}
+.right-section a > #img1{
+    margin-right: 20px;
+}
+.right-section a > #img2{
+    margin-right: 40px;
+}
+
+.topnav .icon img {
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 40px;
+    left: 0;
+    background-color: #242852; /* Dark grey color */
+    overflow-x: hidden;
+    padding-top: 20px;
+    color: #fff;
+    position: fixed;
+    box-shadow: 1px 0px #242852;
+    
+}
+
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #e4e3e3;
+    display: block;
+}
+
+.sidebar a:hover {
+    background-color:#ffffff ;
+    color: #000000;
+}
+
+.content {
+    margin-top: 60px;
+    margin-left: 260px;
+    padding: 20px;
+    
+}
+
+.request-options {
+    display: flex;
+    gap: 20px;
+}
+
+.request-options button {
+    background-color: #6A5ACD; /* Purple color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.request-options button:hover {
+    background-color: #5a4eb7; /* Darker purple color */
+}
