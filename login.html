@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="./asset/css/styles.css">
+    
+</head>
+<body>
+    <div class="Login-container" >
+        <div class="Heading">
+            <h1 >Sign in to DTF</h1>
+        </div>
+        <div class="input-user">
+            <input id="Username" type="text" placeholder=" Username" required>
+            <img src="./asset/img/mdi--user.svg"/>
+        </div>
+        <div class="input-password">
+            <input type="password" id="Password" placeholder= "Password" required>
+            <img src="./asset/img/mdi--password.svg"/>
+        </div>
+        <div class="btn">
+            <button type="submit" onclick="return userCheck()" title="Login">Login</button>
+            <!-- <a href="./index.html"><button type="submit" title="Login">Login</button></a> -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
