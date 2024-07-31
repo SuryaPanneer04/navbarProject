@@ -1,6 +1,10 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: 0%;
     padding: 0%;
     background-color: #ffffff;
 }
@@ -46,7 +50,7 @@ body {
    position: fixed;
    color: #171717;
    font-size: medium;
-   padding-top: 2px;
+   padding-top: 17px;
 }
 .topnav .right-section {
     display: flex;
@@ -57,7 +61,7 @@ body {
     margin-right: 10px;
 }
 .right-section  > #img1{
-    margin-right: 35px;
+    margin-right: 10px;
 }
 .right-section a > #img2{
     margin-right: 40px;
@@ -106,12 +110,18 @@ body {
     padding: 20px;
     
 }
+.content >h1 {
+    text-align: center;
+    
+}
 
 .request-options {
     display: flex;
-    gap: 20px;
+    gap: 240px;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    grid-column: span 3;
 }
-
 
 .request-options button {
     background-color: #6A5ACD; /* Purple color */
