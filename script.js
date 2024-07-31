@@ -3,11 +3,10 @@ function userCheck(){
     var password = document.getElementById("Password").value;
    
     if(username=="admin" && password =="admin"){
-        alert("Login Successfully");
         window.location.replace("index.html");
         return false
     }else{
-        alert("Check username or password");
+        window.location.replace("login.html");
     }
 }
 
@@ -24,7 +23,6 @@ document.getElementById("Username").onclick = function() {
 
 function logoutTask(){
     var btn = document.getElementById("img1").value;
-        alert("logout successfull");
         window.location.replace("login.html");
     }
    
